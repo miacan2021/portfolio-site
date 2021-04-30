@@ -1,0 +1,97 @@
+  
+  .font-s {
+    font-size: 16px;
+  }
+  
+  .font-m {
+    font-size: 19 px;
+  }
+  
+  .font-l {
+    font-size: 23px;
+  }
+  
+  .font-l {
+    font-size: 36px;
+  }
+  
+  .mb-l {
+    margin-bottom: 150px !important;
+  }
+  
+  .pb-l {
+    padding-bottom: 150px !important;
+  }
+  
+  .line {
+    display: none;
+  }
+  
+  .content-width {
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+  }
+  
+  
+  .navbar {
+    height: 10vh;
+    width: 100%;
+  
+    & .nav-links {
+      clip-path: none;
+      width: 50%;
+      height: 10vh;
+      flex-direction: row;
+      margin-left: auto;
+      position: relative;
+      background-color: $cWhite;
+      pointer-events: all;
+      cursor: pointer;
+      transition: none;
+  
+      & li:hover {
+        background: linear-gradient(transparent 50%, $cPurple 50%);
+      }
+  
+      & li:nth-child(4):hover {
+        background: none;
+      }
+  
+    }
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+.main {
+    .container {
+      @extend .content-width;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      background: url('img/leaf2.png'),
+        url('img/flower.png');
+      background-repeat: no-repeat, no-repeat;
+      background-position: 99% 80px, 75% 300px;
+      background-size: 25% 70%, 20% 30%;
+  
+      &__introduce {
+        margin-top: 10%;
+        width: 70%;
+        font-size: 40px;
+        line-height: 270%;
+  
+        &>a {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+  
+      }
+    }
+  
+  
+  }

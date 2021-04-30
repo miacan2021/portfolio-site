@@ -1,0 +1,9 @@
+@import 'styles/variables';
+
+
+@import 'styles/work-breakpoints/base';
+
+
+@media (min-width: 960px) {
+  @import 'styles/work-breakpoints/960up';
+}

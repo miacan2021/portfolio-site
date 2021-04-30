@@ -1,0 +1,130 @@
+.main {
+  
+.container {
+    position: relative;
+    background-position: 96% 80px;
+    background-size: 35% 90%;
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+
+    &__introduce {
+     width: 70%;
+     font-size: 40px;
+    
+     
+     & a{ 
+        top: 100%;
+        left: 50%;
+     & .btn{
+        position: absolute;
+        width: 220px;
+        height: 70px;
+        top: 80%;
+        transform: translateX(-50%);
+       & span {
+           font-size: 25px;
+       }
+     }
+    }
+    }
+}  
+}
+
+
+.work {
+    & .container {
+      width: 100vw;
+   
+      & .title {
+        white-space: nowrap;
+        background: linear-gradient(transparent 50%, $cYellow 50%);
+        width: 60%;
+        margin: 150px 0 50px 0;
+        & h1 {
+          font-family: 'Comfortaa', cursive;
+          padding-left: 20px;
+        }
+      }
+     
+    }
+  }
+  
+.cards {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  
+    & .card {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 4px;
+      transition: all .3s ease;
+      & > * {
+        flex: 1 1 100%;
+      }
+      & h2 {
+        font-size: 30px;
+        margin: 16px 0;
+        letter-spacing: 1px;
+      }
+      & .github{
+        color: $cBlack;
+        margin-top: 10px;
+  
+      }
+    &.card-1 {
+      background-color: $cDarkYellow;
+      &:hover {
+        background-color: $cWhite;
+      }
+    }
+    &.card-2 {
+      background-color: $cPurple;
+      &:hover {
+        background-color: $cWhite;
+      }
+    }
+    &.card-3 {
+      background-color: $cPink;
+      &:hover {
+        background-color: $cWhite;
+      }
+    }
+  }
+  }
+  #about {
+    & .container {
+      position: relative;
+      & .profile {
+        position: absolute;
+        margin: auto;
+        top: 80px;
+        right: 0;
+        left: 0;
+        width: 600px;
+        height: 550px;
+        border-radius: 10px;
+        background: $cYellow;
+        padding: 30px;
+        overflow: hidden;
+    & .skills {
+      position: absolute;
+      margin: auto;
+      top: 350px;
+      left: 0;
+      right: 0;
+      width: 90%;
+    }
+  }
+    }
+  }

@@ -1,0 +1,81 @@
+.font-s {
+    font-size: 16px;
+  }
+  
+  .font-m {
+    font-size: 19 px;
+  }
+  
+  .font-l {
+    font-size: 23px;
+  }
+  
+  .font-l {
+    font-size: 36px;
+  }
+  
+  .mb-l {
+    margin-bottom: 150px !important;
+  }
+  
+  .pb-l {
+    padding-bottom: 150px !important;
+  }
+  
+  .line {
+    display: none;
+  }
+  
+  .content-width {
+    width: 90%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+  }
+  
+  
+  .navbar {
+    height: 10vh;
+    width: 100%;
+  
+    & .nav-links {
+      clip-path: none;
+      width: 50%;
+      height: 10vh;
+      flex-direction: row;
+      margin-left: auto;
+      position: relative;
+      background-color: $cWhite;
+      pointer-events: all;
+      cursor: pointer;
+      transition: none;
+  
+      & li:hover {
+        background: linear-gradient(transparent 50%, $cPurple 50%);
+      }
+  
+      & li:nth-child(4):hover {
+        background: none;
+      }
+  
+    }
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  .cards {
+    max-width: 1200px;
+    flex-direction: row;
+    width: 90vw;
+  }
+  
+  .work {
+    & .container {
+      & .title {
+        margin-left: 15%;
+        width: 40%;
+        margin-top: 100px;
+      }
+    }
+  }
+  

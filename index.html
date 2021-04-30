@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiho Kazama Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Open+Sans+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links appear">
+                <div class="item">
+                <li><a href="#about">about</a></li>
+            </div>
+            <div class="item">
+                <li><a href="work.html">work</a></li>
+            </div>
+            <div class="item">
+                <li><a href="#contact">contact</a></li>
+            </div>
+          
+                <li> <a href="#"><button class="btn cover-3d item"><span>resume</span></button></a></li>
+        
+
+            </ul>
+        </nav>
+
+    </header>
+    <section class="main appear">
+        <div class="container">
+            <div class="container__introduce">
+                <h1>Hi! I am
+                    <br>
+                    <span class="name item">Shiho Kazama.</span>
+                    <br>
+                    I am aiming to be a
+                    <span class="dev item">wed developer.</span>
+                </h1>
+                <a href="#contact"><button class="btn cover-3d"><span>get in touch</span></button></a>
+            </div>
+        </div>
+    </section>
+    <section class="work appear">
+        <div class="container">
+            <div class="title">
+                <h1>Feactured Work</h1>
+            </div>
+            <div class="cards">
+                <div class="card card-1 item">
+                    <video src="videos/sample.mov" muted autoplay looped width="100%"></video>
+                    <h2>Landing Page</h2>
+                    <p>HTML CSS(SaSS)</p>
+                    <a href="https://github.com/miacan2021"><i class="fab fa-github-square fa-3x github"></i></a>
+                </div>
+                <div class="card card-2 item">
+                    <video src="videos/sample.mov" muted autoplay loop width="100%"></video>
+                    <h2>Landing Page</h2>
+                    <p>HTML CSS(SaSS)</p>
+                    <a href="https://github.com/miacan2021"><i class="fab fa-github-square fa-3x github"></i></a>
+                </div>
+                <div class="card card-3 item">
+                    <video src="videos/sample.mov" muted autoplay loop width="100%"></video>
+                    <h2>Landing Page</h2>
+                    <p>HTML CSS(SaSS)</p>
+                    <a href="https://github.com/miacan2021"><i class="fab fa-github-square fa-3x github"></i></a>
+                </div>
+            </div>
+            <a href="work.html"><button class="btn cover-3d"><span>view all works</span></button></a>
+
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>About me</h1>
+            </div>
+            <div class="profile">
+                <div class="flex">
+                    <div class="flex__item">
+                        <img src="img/profile.JPG" alt="profile picture">
+                    </div>
+                    <div class="flex__item">
+                        <h2>Shiho Kazama</h2>
+                        <p>Hello!
+                            My name is Shiho Kazama.
+                            I enjoy creating things on my computer.
+                            I have just started learning programming, but I am learning every day.
+                            I am happy that the number of things I can do is increasing day by day!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills appear">
+                    <div class="skill html item">
+                        <h4><i class="fab fa-html5"></i> HTML5</h4>
+                        <div class="bar bar__html">
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="skill css item">
+                        <h4><i class="fab fa-css3-alt"></i> CSS</h4>
+                        <div class="bar bar__css">
+                            <p>60%</p>
+                        </div>
+                    </div>
+                    <div class="skill javascript item">
+                        <h4><i class="fab fa-js-square"></i> Javascript</h4>
+                        <div class="bar bar__js">
+                            <p>20%</p>
+                        </div>
+                    </div>
+                    <div class="skill react item">
+                        <h4><i class="fab fa-react"></i> React</h4>
+                        <div class="bar bar__react">
+                            <p>5%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="title">
+                <h1>Get in touch</h1>
+            </div>
+            <div class="form appear">
+            <form action="thanks.html">
+                <div class="item">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder=" John Smith"><br><br>
+            </div>
+            <div class="item">
+                <label for="mail" class="item">Email</label><br>
+                <input type="email" id="mail" placeholder="abc@mail.com"><br><br>
+            </div>
+            <div class="item">
+                <label for="message" class="item">Message</label><br>
+                <textarea name="textarea" id="message" placeholder="Message"></textarea><br><br>
+            </div>
+                <input type="submit" value="submit" class="button" id="submit">
+            </form>
+        </div>
+        </div>
+    </section>
+    <aside class="sidebar">
+        <div class="inner appear">
+            <div class="border item">
+            </div>
+            
+            <a href="#" class="item"><i class="fab fa-twitter-square twitter"></i></a>
+            <a href="#" class="item"><i class="fab fa-linkedin linkedin"></i></a>
+            <a href="https://github.com/miacan2021" class="item"><i class="fab fa-github-square fa-3x github"></i></a>
+            
+        </div>
+        
+    </aside>
+    <script src="https://kit.fontawesome.com/21b04c7e94.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
